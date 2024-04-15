@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/signup.css">
+    <title>Đăng ký</title>
+</head>
+<body>
+    <div class="container mt-5 w-50 form">
+        <h1>ĐĂNG KÝ</h1>
+        <div>
+            <div class="form-group">
+                <label for="hoTen">Họ và tên</label>
+                <input type="text" class="form-control" id="hoTen" aria-describedby="emailHelp" placeholder="Nguyen van A">
+                <small id="errHoTen" class="text-danger">(*)</small>
+            </div>
+            <div class="form-group">
+                <label for="email">Địa chỉ Email</label>
+                <input type="text" class="form-control" id="email" aria-describedby="emailHelp" placeholder="example@gmail.com">
+                <small id="errEmail" class="text-danger">(*)</small>
+            </div>
+            <div class="form-group">
+                <label for="address">Địa chỉ</label>
+                <input type="text" class="form-control" id="address" placeholder="Địa chỉ">
+                <small id="errAddress" class="text-danger">(*)</small>
+            </div>
+            <div class="form-group">
+                <label for="phone">Số điện thoại</label>
+                <input type="text" class="form-control" id="phone" placeholder="(+84) 000 000 000">
+                <small id="errPhone" class="text-danger">(*)</small>
+            </div>
+            <div class="form-group">
+                <label for="password">Mật khẩu</label>
+                <input type="password" class="form-control" id="password" placeholder="Matkhau123">
+                <small id="errPass" class="text-danger">(*)</small>
+            </div>
+            <button type="submit" class="btn btn-primary mb-3" id="btnLogin">Đăng kí</button> <br>
+            <p>Bạn có tài khoản? <a href="../html/login.html">Đăng nhập</a></p>
+        </div>
+    </div>
+    <script src="../js/check-signup.js"></script>
+</body>
+</html>
